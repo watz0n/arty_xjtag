@@ -1,0 +1,9 @@
+# Ignore FPGA meta-data
+/.Xil
+/arty_jtag.cache
+/arty_jtag.hw
+/arty_jtag.ip_user_files
+/arty_jtag.runs
+/arty_jtag.sim
+/*.jou
+/*.log
