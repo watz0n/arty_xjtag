@@ -1,0 +1,144 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 2016
+License: Customer
+
+Current time: 	Tue Mar 06 20:42:02 CST 2018
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 142 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	wats0n
+User home directory: C:/Users/wats0n
+User working directory: D:/CompArch/Projects/arty_xjtag
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/wats0n/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/wats0n/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/wats0n/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/CompArch/Projects/arty_xjtag/vivado.log
+Vivado journal file location: 	D:/CompArch/Projects/arty_xjtag/vivado.jou
+Engine tmp dir: 	D:/CompArch/Projects/arty_xjtag/.Xil/Vivado-2016-DESKTOP-9B9PT1R
+
+GUI allocated memory:	182 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 509 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: D:\CompArch\Projects\arty_xjtag\arty_jtag.xpr. Version: Vivado v2017.4 
+// [GUI Memory]: 43 MB (+42115kb) [00:00:08]
+// [Engine Memory]: 461 MB (+331606kb) [00:00:08]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 32 MB. Current time: 3/6/18 8:42:05 PM CST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+5164kb) [00:00:13]
+// [Engine Memory]: 685 MB (+211515kb) [00:00:13]
+// [GUI Memory]: 53 MB (+1448kb) [00:00:16]
+// Tcl Message: open_project D:/CompArch/Projects/arty_xjtag/arty_jtag.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// Project name: arty_jtag; location: D:/CompArch/Projects/arty_xjtag; part: xc7a35ticsg324-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 883.141 ; gain = 210.609 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 63 MB (+7370kb) [00:00:18]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 69 MB (+2769kb) [00:00:25]
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "board_pll_synth_1 ; board_pll ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Mar 06 20:12:09 CST 2018 ; 00:00:02 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7a35ticsg324-1L ; Vivado Synthesis Defaults", 3, "board_pll", 1, false); // ax (O, cj)
+// PAPropertyPanels.initPanels (board_pll_synth_1) elapsed time: 0.6s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "board_pll_synth_1 ; board_pll ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Tue Mar 06 20:12:09 CST 2018 ; 00:00:02 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7a35ticsg324-1L ; Vivado Synthesis Defaults", 3, "board_pll_synth_1", 0, false, false, false, false, true, false); // ax (O, cj) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run board_pll_synth_1 
+// [GUI Memory]: 74 MB (+1477kb) [00:00:40]
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 7 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'board_pll'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'board_pll'... 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (board_pll_synth_1) elapsed time: 0.2s
+// Tcl Message: [Tue Mar  6 20:42:40 2018] Launched board_pll_synth_1, synth_1... Run output will be captured here: board_pll_synth_1: D:/CompArch/Projects/arty_xjtag/arty_jtag.runs/board_pll_synth_1/runme.log synth_1: D:/CompArch/Projects/arty_xjtag/arty_jtag.runs/synth_1/runme.log [Tue Mar  6 20:42:40 2018] Launched impl_1... Run output will be captured here: D:/CompArch/Projects/arty_xjtag/arty_jtag.runs/impl_1/runme.log 
+// [Engine Memory]: 724 MB (+4257kb) [00:00:48]
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 726 MB. GUI used memory: 42 MB. Current time: 3/6/18 8:42:45 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 78 MB (+97kb) [00:05:55]
+// [GUI Memory]: 82 MB (+322kb) [00:06:05]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.

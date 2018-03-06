@@ -5,5 +5,11 @@
 /arty_jtag.ip_user_files
 /arty_jtag.runs
 /arty_jtag.sim
+/src/xci/*.v
+/src/xci/*.vh
+/src/xci/*.vhdl
+/src/xci/*.dcp
+/src/xci/*.xml
+/src/xci/*.xdc
 /*.jou
 /*.log
