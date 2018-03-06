@@ -142,3 +142,5 @@ dismissDialog("Generate Bitstream"); // bs (cj)
 // [GUI Memory]: 78 MB (+97kb) [00:05:55]
 // [GUI Memory]: 82 MB (+322kb) [00:06:05]
 // WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify

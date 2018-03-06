@@ -13,3 +13,4 @@
 /src/xci/*.xdc
 /*.jou
 /*.log
+/*.str
