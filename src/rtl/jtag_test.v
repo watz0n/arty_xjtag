@@ -11,8 +11,8 @@
 */ //
 
 module jtag_test#(
-    //parameter JDATA_WIDTH = 32 //Byte Shift Test
-    parameter JDATA_WIDTH = 35 //Bit Shift Test
+    parameter JDATA_WIDTH = 32 //Byte Shift Test
+    //parameter JDATA_WIDTH = 35 //Bit Shift Test
 )(
     output [3:0] led,
     input board_clock
