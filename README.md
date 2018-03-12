@@ -1,7 +1,7 @@
 Xilinx JTAG Toolchain on Digilent Arty board
 ===
 
-This is a small experimental project to validate the functionality of Xilinx FPGA Configuration JTAG  `USER4` register, which applied by Xilinx `BSCANE2` [2] module in Verilog source code.
+This is a small experimental project to validate the functionality of Xilinx FPGA Configuration JTAG  `USER4` register, which applied by Xilinx `BSCANE2` [1] module in Verilog source code.
 
 With Xilinx `BSCANE2` module, it's much easiler to transfer binary data between PC and FPGA via Xilinx official JTAG cable. For example, when build digital laboratory environment on Digilent Arty board, use `USB-JTAG` for configuring FPGA bitstream and transfer test data to FPGA module, save the `USB-UART` to receive readable string from FPGA module in terminal application on PC.
 
@@ -87,11 +87,16 @@ Result as reference [2], `Artix 7A35T X362D093`
 Reference
 ===
 
-[1] [Xilinx UG429 : 7Series FPGAs Migration Methodology Guide](https://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf)
+1. [Xilinx UG429 : 7Series FPGAs Migration Methodology Guide](https://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf)
+```
+BSCAN_VIRTEX6 -> BSCANE2
+JTAG_SIM_VIRTEX6 -> JTAG_SIME2
+SIM_CONFIG_V6 -> SIM_CONFIGE2
+```
 
-[2] [Xilinx UG470 : FPGA Configuration Guide](https://www.xilinx.com/support/documentation/user_guides/ug470_7Series_Config.pdf)
+2. [Xilinx UG470 : FPGA Configuration Guide](https://www.xilinx.com/support/documentation/user_guides/ug470_7Series_Config.pdf)
 
-[3] [Xilinx UG1208 : XSCT Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_4/ug1208-xsct-reference-guide.pdf)
+3. [Xilinx UG1208 : XSCT Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_4/ug1208-xsct-reference-guide.pdf)
 
 Contact Information
 ===
