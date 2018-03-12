@@ -5,7 +5,7 @@ This is a small experimental project to validate the functionality of Xilinx FPG
 
 With Xilinx `BSCANE2` module, it's much easiler to transfer binary data between PC and FPGA via Xilinx official JTAG cable. For example, when build digital laboratory environment on Digilent Arty board, use `USB-JTAG` for configuring FPGA bitstream and transfer test data to FPGA module, save the `USB-UART` to receive readable string from FPGA module in terminal application on PC.
 
-Currently, `BSCANE2` module has been parameterized as 32-bit register for JTAG DR-SHIFT state, as `JDATA_WIDTH` parameter in `jtag_test` module. But it's not only support byte (8-bit) aligend register operation, as [learn-rv32i-arty project](https://github.com/watz0n/learn-rv32i-arty), which interfacing JTAG USER interface by 41-bit register for RISC-V Debug Module Interface (DMI) data-structure.
+Currently, `BSCANE2` module has been parameterized as 32-bit register for JTAG DR-SHIFT state, as `JDATA_WIDTH` parameter in `jtag_test` module. But it's not only support byte (8-bit) aligend register operation, as [learn-rv32i-arty project](https://github.com/watz0n/learn-rv32i-arty), which interfacing JTAG `USER4` register by 41-bit width for RISC-V Debug Module Interface (DMI) data-structure.
 
 I assume the reader for this project are familiar with Xilinx Vivado project mode, which based on [Xilinx Vivado 2017.4](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2017-4.html), and FPGA applied on [Digilent Arty board](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/).
 
