@@ -82,13 +82,15 @@ xsct% $jseq clear
 xsct% puts $result
 0362d093
 ```
-Result as reference [2], `7A35T X362D093`
+Result as reference [2], `Artix 7A35T X362D093`
 
 Reference
 ===
 
 [1] [Xilinx UG429 : 7Series FPGAs Migration Methodology Guide](https://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf)
+
 [2] [Xilinx UG470 : FPGA Configuration Guide](https://www.xilinx.com/support/documentation/user_guides/ug470_7Series_Config.pdf)
+
 [3] [Xilinx UG1208 : XSCT Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_4/ug1208-xsct-reference-guide.pdf)
 
 Contact Information
