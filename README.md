@@ -98,6 +98,12 @@ SIM_CONFIG_V6 -> SIM_CONFIGE2
 
 3. [Xilinx UG1208 : XSCT Reference Guide](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_4/ug1208-xsct-reference-guide.pdf)
 
+
+Support Project
+===
+
+* [learn-rv32i-arty project](https://github.com/watz0n/learn-rv32i-arty), port unpipelined RV32I simulation core [learn-rv32i-asap](https://github.com/watz0n/learn-rv32i-asap) in [Digilent Arty board](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/) Artix 7A35T FPGA.
+
 Contact Information
 ===
 
