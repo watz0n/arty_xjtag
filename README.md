@@ -1,7 +1,7 @@
 Xilinx JTAG Toolchain on Digilent Arty board
 ===
 
-This is a small experimental project to validate the functionality of Xilinx FPGA Configuration JTAG  `USER4` register, which applied by Xilinx `BSCANE2` [1] module in Verilog source code.
+This is a small experimental project to validate the functionality of Xilinx FPGA Configuration JTAG  `USER4` register, which applied by Xilinx `BSCANE2` [1] module in Verilog source code. This method should be applied to all offical Xilinx JTAG cable product, but currently I only test on Digilent USB-JTAG port, which is officialy supported by Xilinx on Vivado platform.
 
 With Xilinx `BSCANE2` module, it's much easiler to transfer binary data between PC and FPGA via Xilinx official JTAG cable. For example, when build digital laboratory environment on Digilent Arty board, use `USB-JTAG` for configuring FPGA bitstream and transfer test data to FPGA module, save the `USB-UART` to receive readable string from FPGA module in terminal application on PC.
 
